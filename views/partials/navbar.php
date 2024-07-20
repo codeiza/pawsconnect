@@ -4,20 +4,19 @@
     </div>
     <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
-            <li><a>Pets</a></li>
-            <li><a>Chat</a></li>
+            <li><a href="../dashboard/index.php">Pets</a></li>
+            <li><a href="../chats/index.php">Chat</a></li>
             <li>
                 <details>
                     <summary>
                         Settings
                     </summary>
                     <ul class="p-2 bg-base-200 rounded-t-none">
-                        <li><a class="text-xs">Profile</a></li>
-                        <li><a class="text-xs">Add pets</a></li>
-                        <li><a class="text-xs">Your Pets</a></li>
-                        <li><a class="text-xs">Logout</a></li>
+                        <li><a href="/views/profile/index.php"class="text-xs">Profile</a></li>
+                        <li><a href="../pets/addpet.php" class="text-xs">Add pets</a></li>
+                        <li><a href="../pets/yourpet.php"class="text-xs">Your Pets</a></li>
+                        <li><a href="../../php/logout.php" class="text-xs">Logout</a></li>
                     </ul>
-
                 </details>
             </li>
         </ul>
